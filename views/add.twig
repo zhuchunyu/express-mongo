@@ -1,0 +1,9 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+    <form action="/add" method="post">
+        <p>用户名：<input name="name"></p>
+        <p>密码：<input name="password"></p>
+        <p>保存：<input type="submit"></p>
+    </form>
+{% endblock %}
