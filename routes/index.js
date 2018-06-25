@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const User = require('../lib/model/user')
+const User = require('../lib/model/user');
 
 /* GET home page. */
 router.get('/', async (req, res, next) => {
